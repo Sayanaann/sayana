@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Wayanadu</h1>
+  <div>
+    Wayanad is unique in that it is situated in an elevated picturesque mountainous plateau in the Western Ghats. The vast stretches of mist - capped mountains, green meadows of valleys, white water springs, blue water lakes and wild forests express the splendid natural beauty of Wayanad.
+    This area is famous for its large amount of camping and trekking trails, breathtaking waterfalls, caves, bird watching sites, flora, fauna and an overall plethora of magnificent sights. This area has been a tourist favourite over the years.
+ </div>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="./images/edakkal caves,wayanad.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="./images/pookode lake,wayanad.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+  <img src="./images/banasura hill, wayanad.webp" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/soochipara waterfalls,wayand.jfif" style="width:100%">
+    </div>
+</div>
+</body>
+</html>
